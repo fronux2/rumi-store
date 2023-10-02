@@ -10,9 +10,10 @@
         "node": true
     },
     "extends": [
+        "next/core-web-vitals",
         "standard-with-typescript",
-        "plugin:react/recommended",
-        "plugin:@next/next/recommended"
+        "plugin:react/recommended"
+        
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
