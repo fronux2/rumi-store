@@ -1,12 +1,12 @@
 import Button from './button'
 
 interface Props {
-  className?: string
-  children?: React.ReactNode
+    className?: string
+    children?: React.ReactNode
 }
 
 const CardStore: React.FunctionComponent<Props> = ({ className = 'flex flex-col justify-end items-center py-2 w-full h-60 bg-slate-500', children }: Props) => {
-  return <section >
+    return <section >
         <div className="basis-[calc(50%-1rem)] w-auto md:h-96 h-64 relative group-hover:bg-black bg-black  group overflow-hidden ">
             <div className="w-0.5 h-0 bg-white absolute left-4 bottom-4 transition-height duration-300 ease-in-out group-hover:h-[calc(100%-33px)] delay-75 md:delay-500 z-30"></div>
             <div className="w-0.5 h-0 bg-white absolute right-4 top-4 transition-height duration-300 ease-in-out group-hover:h-[calc(100%-33px)] delay-75 z-30 md:delay-500"></div>

@@ -1,12 +1,12 @@
 import Button from './button'
 
 interface Props {
-  className?: string
-  children?: React.ReactNode
+    className?: string
+    children?: React.ReactNode
 }
 
 const CardStore2: React.FunctionComponent<Props> = ({ className = 'w-64 h-64 bg-slate-500', children }: Props) => {
-  return (
+    return (
         <section className="grid grid-rows-1 w-full h-96 border-1">
             <div className="w-full h-auto bg-slate-50 border-1 ">
                 <div className="basis-[calc(50%-1rem)] w-auto md:h-full h-full relative group-hover:bg-black bg-black  group overflow-hidden ">
