@@ -1,5 +1,5 @@
 import Button from './button'
-
+import Image from 'next/image'
 interface Props {
   className?: string
   children?: React.ReactNode
@@ -14,7 +14,7 @@ const CardStore2: React.FunctionComponent<Props> = ({ className = 'w-64 h-64 bg-
                     <div className="w-0.5 h-0 bg-white absolute right-4 top-4 transition-height duration-300 ease-in-out group-hover:h-[calc(100%-33px)] delay-75 z-30 md:delay-500"></div>
                     <div className="w-0 h-0.5 bg-white absolute top-4 left-4 transition-width duration-300 ease-in-out group-hover:w-[calc(100%-33px)] delay-75 z-30 md:delay-500"></div>
                     <div className="w-0 h-0.5 bg-white absolute bottom-4 right-4 transition-width duration-300 ease-in-out group-hover:w-[calc(100%-33px)] delay-75 z-30 md:delay-500"></div>
-                    <img src="https://th.bing.com/th/id/R.c281b7dae7151ea226119b93ef6ba729?rik=b%2fva9IGmPZEY6Q&pid=ImgRaw&r=0" alt="" className="object-cover w-full h-full transition ease-in duration-400 md:group-hover:scale-105"/>
+                    <Image src="https://th.bing.com/th/id/R.c281b7dae7151ea226119b93ef6ba729?rik=b%2fva9IGmPZEY6Q&pid=ImgRaw&r=0" alt="" className="object-cover w-full h-full transition ease-in duration-400 md:group-hover:scale-105"/>
 
                     <div className="w-full h-full bg-blue-950 opacity-0 transition-opacity ease-in duration-400 group-hover:opacity-70 absolute top-0 z-10"></div>
                 </div>
