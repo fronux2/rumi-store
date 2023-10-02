@@ -20,7 +20,10 @@
         "react/react-in-jsx-scope": "off",
         "@typescript-eslint/no-floating-promises": "off",
         "@typescript-eslint/explicit-function-return-type": "off",
-        "@typescript-eslint/no-misused-promises": "off"
-    
+        "@typescript-eslint/no-misused-promises": "off",
+        "react/no-unescaped-entities": "off",
+        "@next/next/no-page-custom-font": "off",
+        "@typescript-eslint/consistent-type-definitions": "off",
+        "@typescript-eslint/indent": ["error", 4]
     }
 }
