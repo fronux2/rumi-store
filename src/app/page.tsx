@@ -1,14 +1,14 @@
 import Button from './components/button'
 import Link from 'next/link'
 const links = [{
-    label: 'Home',
-    route: '/'
+  label: 'Home',
+  route: '/'
 }, {
-    label: 'Inicio',
-    route: '/inicio'
+  label: 'Inicio',
+  route: '/inicio'
 }]
 export default function Home () {
-    return (
+  return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
           Holaa
             <Button>
@@ -21,5 +21,5 @@ export default function Home () {
         Danger
             </Button>
         </main>
-    )
+  )
 }

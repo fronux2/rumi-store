@@ -1,9 +1,9 @@
 interface Props {
-    children?: React.ReactNode
+  children?: React.ReactNode
 }
 
 const NavPage: React.FunctionComponent<Props> = ({ children }) => {
-    return <div className="h-14">
+  return <div className="h-14">
         {children}
     </div>
 }
