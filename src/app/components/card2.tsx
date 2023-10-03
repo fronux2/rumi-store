@@ -8,7 +8,7 @@ interface Props {
 
 const CardStore2: React.FunctionComponent<Props> = ({ className = 'w-64 h-64 bg-slate-500', children }: Props) => {
   return (
-        <section className="grid grid-rows-1 w-full h-96 border-1 min-w-[75%]">
+        <section className="grid grid-rows-1 w-full h-96 border-1 md:min-w-0 min-w-[75%]">
             <div className="w-full h-auto bg-slate-50 border-1 ">
                 <div className="basis-[calc(50%-1rem)] w-auto md:h-full h-full relative group-hover:bg-black bg-black  group overflow-hidden ">
                     <div className="w-0.5 h-0 bg-white absolute left-4 bottom-4 transition-height duration-300 ease-in-out group-hover:h-[calc(100%-33px)] delay-75 md:delay-500 z-30"></div>
