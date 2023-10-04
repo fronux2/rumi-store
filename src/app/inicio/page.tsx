@@ -7,7 +7,7 @@ export default function PageIndex () {
   return (
     <section className='bg-white'>
       <NavPage>NAV</NavPage>
-      <Carousel>CAROUSEsL</Carousel>
+      <Carousel/>
       <div className='bg-slate-200 px-5 py-10'>
 
         <section className='grid grid-cols-1 md:grid-cols-2 gap-2'>
