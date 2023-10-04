@@ -1,7 +1,4 @@
 'use client'
-import land from '../imgs/landscape.jpg'
-import viet from '../imgs/vietnam.jpg'
-import krka from '../imgs/krka.jpg'
 
 import { useEffect, useState } from 'react'
 
@@ -31,6 +28,7 @@ const Carousel = () => {
       prevImage()
       setTime(true)
     }, 13000)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [time])
 
   useEffect(() => {
