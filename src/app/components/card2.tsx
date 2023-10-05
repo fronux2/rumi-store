@@ -1,12 +1,12 @@
 import Button from './button'
 import Image from 'next/image'
-import imr from '../imgs/R.jpg'
+
 interface Props {
-  className?: string
+  pathUrl?: string
   children?: React.ReactNode
 }
 
-const CardStore2: React.FunctionComponent<Props> = ({ className = 'w-64 h-64 bg-slate-500', children }: Props) => {
+const CardStore2: React.FunctionComponent<Props> = ({ pathUrl = 'https://sallobos.cl/content/uploads/bfi_thumb/home-selecciones-ppn1slpe9xigffyoy161lt19p7sfpj7y7swh1rv11c.jpg', children }: Props) => {
   return (
         <section className="grid grid-rows-1 w-full h-96 border-1 md:min-w-0 min-w-[75%]">
             <div className="w-full h-auto bg-slate-50 border-1 ">
@@ -15,7 +15,7 @@ const CardStore2: React.FunctionComponent<Props> = ({ className = 'w-64 h-64 bg-
                     <div className="w-0.5 h-0 bg-white absolute right-4 top-4 transition-height duration-300 ease-in-out group-hover:h-[calc(100%-33px)] delay-75 z-30 md:delay-500"></div>
                     <div className="w-0 h-0.5 bg-white absolute top-4 left-4 transition-width duration-300 ease-in-out group-hover:w-[calc(100%-33px)] delay-75 z-30 md:delay-500"></div>
                     <div className="w-0 h-0.5 bg-white absolute bottom-4 right-4 transition-width duration-300 ease-in-out group-hover:w-[calc(100%-33px)] delay-75 z-30 md:delay-500"></div>
-                    <Image src={imr} alt="" width={600} height={600} className="object-cover w-full h-full transition ease-in duration-400 md:group-hover:scale-105"/>
+                    <Image src={pathUrl} alt="" width={600} height={600} className="object-cover w-full h-full transition ease-in duration-400 md:group-hover:scale-105"/>
 
                     <div className="w-full h-full bg-blue-950 opacity-0 transition-opacity ease-in duration-400 group-hover:opacity-70 absolute top-0 z-10"></div>
                 </div>
