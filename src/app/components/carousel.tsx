@@ -6,9 +6,6 @@ import Image from 'next/image'
 import 'swiper/css'
 import 'swiper/css/navigation'
 
-import img1 from '../imgs/krka.jpg'
-import img2 from '../imgs/R.jpg'
-import img3 from '../imgs/landscape.jpg'
 // import required modules
 import { Navigation, Autoplay } from 'swiper/modules'
 
