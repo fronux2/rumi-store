@@ -1,6 +1,7 @@
 import Button from './components/button'
 import Link from 'next/link'
 import { redirect } from 'next/navigation'
+
 const links = [{
   label: 'Home',
   route: '/'
