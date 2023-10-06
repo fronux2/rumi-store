@@ -5,12 +5,13 @@
 .translateImg{
     transform: translate(-50%, -50%);
     width: 250px;
-    height:250px
+    height:250px;
+   
 }
 
 .imagen-recortada {
-    width: 50%;
-    height: 480px;
+    width: 55%;
+    height: 580px;
     background-image: url('./imgs/krka.jpg');   
     position:relative;
     clip-path: polygon(0 0, 100% 0, 0 300%)
