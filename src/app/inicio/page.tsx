@@ -20,13 +20,13 @@ export default function PageIndex () {
       </div>
 
       <h2 className='bg-slate-100 md:pl-72 md:pr-72 px-5 py-4 text-3xl md:pt-8'>Recetas</h2>
-      <section className='flex md:pl-60 md:pr-60 overflow-x-auto relative bg-slte-100 px-5 py-10 md:px-24 md:py-5  gap-3 bg-slate-100'>
+      <section className='flex md:pl-6 md:pr-6 overflow-x-auto relative bg-slte-100 px-5 py-10 md:px-24 md:py-5  gap-3 bg-slate-100'>
         <CardStore2 pathUrl='https://sallobos.cl/content/uploads/bfi_thumb/empanadas-silvana-ox0l2122m4fdsfqdala0mi5mlmwtz26ueejkaynv40.jpg'/>
         <CardStore2 pathUrl='https://sallobos.cl/content/uploads/bfi_thumb/Receta_Lobos_1440x800_03-nsw50ze0pu4cnzp5lc88yy4brjsivqsqhho6e79vls.jpg'/>
         <CardStore2 pathUrl='https://sallobos.cl/content/uploads/bfi_thumb/Header-Recetas-1440x800-Lobos-Papas-con-bacon-o06v17z6qgumnhj9f959dxd3wglq2hi4lsw1n5yvy8.jpg'/>
       </section>
       <h2 className='w-full bg-slate-200 px-5 md:pt-10 text-3xl md:pl-72 md:pr-72'>Blog</h2>
-      <section className='flex sm:pl-16 sm:pr-16 md:pl-60 md:pr-60 md:grid overflow-x-auto gap-2 px-5 py-10 md:px-24 md:py-10 grid-cols-12 md:grid-cols-3 h-auto w-full bg-slate-200'>
+      <section className='flex md:pl-6 md:pr-6 lg:pr-60 lg:pl-60 md:grid overflow-x-auto gap-2 px-5 py-10 md:px-24 md:py-10 grid-cols-12 md:grid-cols-3 h-auto w-full bg-slate-200'>
         <CardStore2/>
         <CardStore2/>
         <CardStore2/>
