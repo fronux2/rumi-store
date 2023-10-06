@@ -37,3 +37,7 @@
 .swiper-slide-active h1 {
   animation: fadeInUp 1s;
 }
+
+.sticky{
+  height:64px;
+}
