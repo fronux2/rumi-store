@@ -10,7 +10,7 @@
 }
 
 .imagen-recortada {
-    width: 55%;
+    width: 60%;
     height: 580px;      
     position:relative;
     clip-path: polygon(0 0, 100% 0, 0 300%)
@@ -45,9 +45,9 @@
 @media (max-width: 639px) {
   .imagen-recortada {
     width: 100%;
-    height: 50%;     
+    height: 15rem;     
     position:relative;
-    clip-path: polygon(0 0, 600% 0, 0 70%);
+    clip-path: polygon(0 0, 600% 0, 0 100%);
    
   }
 
