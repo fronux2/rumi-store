@@ -24,7 +24,7 @@ export default function Carousel () {
             <SwiperSlide>
                 <div className='flex flex-col sm:flex-row relative w-full bg-slate-200' >
                     <Image src={img1} alt="" className='imagen-recortada' width={200} height={200}/>
-                    <div className='sm:pt-44 pl-6 pt-20'>
+                    <div className='sm:pt-44 pl-6 pt-20 pb-5'>
                         <h1 className='font-bold text-4xl'>El Sabor de Nuestro Hogar</h1>
                         <h1 className='pt-2'>Desde hace más de 100 años en la mesa de todo Chile</h1>
                     </div>
@@ -34,7 +34,7 @@ export default function Carousel () {
             <SwiperSlide>
                 <div className='flex flex-col sm:flex-row relative w-full bg-slate-200' >
                     <Image src={img2} alt="" className='imagen-recortada' width={200} height={200}/>
-                    <div className='sm:pt-44 pl-6 pt-20'>
+                    <div className='sm:pt-44 pl-6 pt-20 pb-5'>
                         <h1 className='font-bold text-4xl'>Mira nuestra serie</h1>
                         <h1 className='pt-2 pb-2'>Por que una receta con historia, siempre tiene más sabor.</h1>
                         <h1 className='p-2 mt-4 pl-6 rounded-3xl bg-red-600 w-40 text-white'>CONOCE MÁS</h1>
@@ -45,7 +45,7 @@ export default function Carousel () {
             <SwiperSlide>
                 <div className='flex flex-col sm:flex-row relative w-full bg-slate-200' >
                     <Image src={img3} alt="" className='imagen-recortada' width={200} height={200}/>
-                    <div className='sm:pt-44 pl-6 pt-20'>
+                    <div className='sm:pt-44 pl-6 pt-20 pb-5'>
                         <h1 className='font-bold  text-4xl'>Lobos Selecciones</h1>
                         <h1 className='pt-2 pb-2'>sales de especialidad para disfrutar una experiencia en sabor.</h1>
                         <h1 className='p-2 mt-4 pl-6 rounded-3xl bg-red-600 w-40 text-white'>CONOCE MÁS</h1>
