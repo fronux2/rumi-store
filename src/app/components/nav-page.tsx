@@ -15,9 +15,9 @@ const NavPage = () => {
     }
   }, [])
   return (
-    <div id="navv" className='flex px-36 items-center justify-between w-full h-20 bg-white fixed top-0 left-0 z-50 duration-500'>
+    <div id="navv" className='flex lg:px-36 items-center justify-between w-full h-20 bg-white fixed top-0 left-0 z-50 duration-500'>
       <a className=''>LOBOS</a>
-      <ul className='flex gap-6 text-xs font-semibold text-indigo-800'>
+      <ul className='flex lg:gap-6 text-xs font-semibold text-indigo-800'>
         <li><a href="">INICIO</a></li>
         <li><a href="">SAL TRADICIONAL</a></li>
         <li><a href="">SAL PARRILLERA</a></li>
