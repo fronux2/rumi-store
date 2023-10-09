@@ -58,3 +58,67 @@
     margin-left: 50px;
   }
 }
+
+
+
+.containerBlue {    
+  width: 0px;
+  height: 46rem;    
+  transition: width 0.2s ease; /* Agrega una transición suave */
+  background-color: red;
+  position:absolute;
+  top:0;
+  right:0;
+  
+}
+
+.zero{
+  color:white;
+}
+
+
+@media (max-width: 1024px) {
+  .containerBlue {
+      width: 0px;
+      height: 46rem;    
+      transition: width 0.2s ease; /* Agrega una transición suave */
+      background-color: #000080;
+      z-index:20;
+      position:fixed;
+    }
+  
+  .burger{      
+      width:60px;
+      height:50px;
+      background:black;
+      
+  }
+  
+    .blue {
+       /* Color de fondo azul cuando se aplica la clase "blue" */    
+      width:200px;
+    }
+  
+    .linea{
+      margin-left:2px;
+      margin-top:8px;
+      padding:2px;
+      width:45px;
+      height:2px;
+      background:white;
+    }
+
+    .blue {
+      /* Color de fondo azul cuando se aplica la clase "blue" */    
+     width:200px;
+   }
+   .hid {
+    display: none;
+  }
+}
+
+@media (min-width: 1023px) {
+  .hid {
+    display: none;
+  }
+}
