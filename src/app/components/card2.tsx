@@ -1,12 +1,12 @@
 import Button from './button'
-import Image from 'next/image'
-
+import Image, { type StaticImageData } from 'next/image'
+import card0 from '../imgs/card0.jpg'
 interface Props {
-  pathUrl?: string
+  pathUrl?: string | StaticImageData
   children?: React.ReactNode
 }
 
-const CardStore2: React.FunctionComponent<Props> = ({ pathUrl = 'https://sallobos.cl/content/uploads/bfi_thumb/home-selecciones-ppn1slpe9xigffyoy161lt19p7sfpj7y7swh1rv11c.jpg', children }: Props) => {
+const CardStore2: React.FunctionComponent<Props> = ({ pathUrl = card0, children }: Props) => {
   return (
         <section className="grid grid-rows-1 w-full h-96 border-1 md:min-w-0 min-w-[75%]">
             <div className="w-full h-auto bg-slate-50 border-1 ">
