@@ -9,6 +9,7 @@ const SideBar2 = () => {
   }
 
   const containerClassName = isBlue ? 'containerBlue blue' : 'containerBlue '
+  const hidnav = isBlue ? 'flex flex-col gap-4 pl-5 sm:justify-center sm:items-center' : 'hidnav flex flex-col gap-4 pl-5 sm:justify-center sm:items-center'
 
   return (
         <>
@@ -39,7 +40,7 @@ const SideBar2 = () => {
               </div>
 
               <div className={containerClassName + ' text-white pt-28'}>
-                  <ul className={'flex flex-col gap-4 pl-5 sm:justify-center sm:items-center'}>
+                  <ul className={hidnav}>
                     <li><a href="">INICIO1</a></li>
                     <li><a href="">SAL TRADICIONAL</a></li>
                     <li><a href="">SAL PARRILLERA</a></li>

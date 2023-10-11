@@ -13,7 +13,6 @@ import card23 from '../imgs/card23.jpg'
 export default function PageIndex () {
   return (
     <section className='bg-white'>
-
       <div className='bg-slate-200'>
         <Carousel/>
         <div className='bg-slate-200 px-5 py-10'>

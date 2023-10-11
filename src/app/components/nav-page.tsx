@@ -9,6 +9,7 @@ const SideBar = () => {
   }
 
   const containerClassName = isBlue ? 'containerBlue blue' : 'containerBlue '
+  const hidnav = isBlue ? 'hidnav flex flex-col items-center justify-center pt-20 gap-6 zero' : ''
 
   return (
         <>
@@ -37,7 +38,7 @@ const SideBar = () => {
                   <div className='linea'></div>
               </button>
               <div className={containerClassName}>
-                  <ul className={'flex flex-col items-center justify-center pt-20 gap-6 zero'}>
+                  <ul className={hidnav}>
                     <li><a href="">INICIO</a></li>
                     <li><a href="">SAL TRADICIONAL</a></li>
                     <li><a href="">SAL PARRILLERA</a></li>
