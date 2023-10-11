@@ -14,9 +14,9 @@ const Card3: React.FunctionComponent<Props> = ({ pathUrl = img30, titulo, descri
                 </div>
 
                 <div className='p-4'>
-                  <h1 className='text-base font-bold'>{titulo}</h1>
-                  <p className='text-xs font-medium'>{descripcion}</p>
-                  <p>VER PRODUCTO</p>
+                  <h1 className='text-sm font-bold pb-1'>{titulo}</h1>
+                  <p className='text-xs font-medium pb-2'>{descripcion}</p>
+                  <p className='text-xs font-light'>{'VER PRODUCTO -->'}</p>
                 </div>
 
             </section>

@@ -88,7 +88,7 @@ export default function PageTradicional () {
                 <div className='p-6'>
                   <h1 className='text-xl font-semibold'>Recetas</h1>
                   <p className='text-sm'>conoce las mejores recetas de Sal Lobos</p>
-                  <button className='rounded-full bg-red-600 px-4 py-2 mt-6'>VER MÁS</button>
+                  <button className='rounded-full bg-red-600 px-4 py-2 mt-6 whitespace-nowrap'>VER MÁS</button>
                 </div>
               </section>
               <Footer/>
