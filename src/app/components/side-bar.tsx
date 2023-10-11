@@ -1,6 +1,31 @@
 'use client'
 import { useState } from 'react'
-
+import Link from 'next/link'
+const links = [{
+  label: 'INICIO',
+  route: '/inicio'
+}, {
+  label: 'SAL TRADICIONAL',
+  route: '/sal-tradicional'
+}, {
+  label: 'SAL PARRILLERA',
+  route: '/sal-parrillera'
+}, {
+  label: 'SAL DE MAR',
+  route: '/sal-mar'
+}, {
+  label: 'LOBOS SELECCIONES',
+  route: '/selecciones'
+}, {
+  label: 'RECETAS',
+  route: '/recetas'
+}, {
+  label: 'BLOG',
+  route: '/blog'
+}, {
+  label: 'CONTACTO',
+  route: '/contacto'
+}]
 const SideBar2 = () => {
   const [isBlue, setIsBlue] = useState(false)
 
@@ -14,21 +39,16 @@ const SideBar2 = () => {
   return (
         <>
           <div id="navv" className='flex xl:h-24 h-16 w-full z-40 xl:pl-2 bg-white fixed xl:gap-6 justify-between items-center'>
-            <a className='xl:pl-28 pl-10'>LOBOS</a>
+            <Link href="" className='xl:pl-28 pl-10'>LOBOS</Link>
             <ul className='lg:flex hid xl:gap-6 gap-4 text-xs font-medium'>
-              <li><a href="">INICIO</a></li>
-              <li><a href="">SAL TRADICIONAL</a></li>
-              <li><a href="">SAL PARRILLERA</a></li>
-              <li><a href="">SAL DE MAR</a></li>
-              <li><a href="">LOBOS SELECCIONES</a></li>
-              <li><a href="">RECETAS</a></li>
-              <li><a href="">BLOG</a></li>
-              <li><a href="">CONTACTO</a></li>
+              {links.map(link => {
+                return (<Link key={link.label} href={link.route}>{link.label}</Link>)
+              })}
             </ul>
             <ul className='lg:flex hid gap-2'>
-              <li><a href="" className='border-2 rounded-full py-2 px-3'>F</a></li>
-              <li><a href="" className='border-2 rounded-full py-2 px-4'>I</a></li>
-              <li><a href="" className='border-2 rounded-full py-2 px-3'>Y</a></li>
+              <li><Link href="" className='border-2 rounded-full py-2 px-3'>F</Link></li>
+              <li><Link href="" className='border-2 rounded-full py-2 px-4'>I</Link></li>
+              <li><Link href="" className='border-2 rounded-full py-2 px-3'>Y</Link></li>
             </ul>
             <div className=''>
               <div className='flex absolute z-40 top-0 right-0'>
@@ -41,19 +61,13 @@ const SideBar2 = () => {
 
               <div className={containerClassName + ' text-white pt-28'}>
                   <ul className={hidnav}>
-                    <li><a href="">INICIO1</a></li>
-                    <li><a href="">SAL TRADICIONAL</a></li>
-                    <li><a href="">SAL PARRILLERA</a></li>
-                    <li><a href="">SAL DE MAR</a></li>
-                    <li><a href="">LOBOS SELECCIONES</a></li>
-                    <li><a href="">RECETAS</a></li>
-                    <li><a href="">BLOG</a></li>
-                    <li><a href="">CONTACTO</a></li>
+                    {links.map(link => {
+                      return <Link key={link.label} href={link.route}>{link.label}</Link>
+                    })}
                   </ul>
               </div>
             </div>
           </div>
-
         </>
   )
 }
