@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import SideBar2 from './components/side-bar'
+import Footer from './components/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,10 +19,12 @@ export default function RootLayout ({
   return (
         <html lang="en">
             <body className={inter.className}>
-
-                <SideBar2/>
-                <div>
-                  {children}
+                <div className='grid grid-cols-1'>
+                  <SideBar2/>
+                  <div className='w-full h-full'>
+                    {children}
+                  </div>
+                  <Footer/>
                 </div>
 
             </body>

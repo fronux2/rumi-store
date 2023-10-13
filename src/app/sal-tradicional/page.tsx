@@ -12,7 +12,6 @@ import img38 from '../imgs/card38.jpg'
 import img39 from '../imgs/card39.jpg'
 import Card3 from '../components/card3'
 import img1 from '../imgs/imagen1.jpg'
-import Footer from '../components/footer'
 
 const dataCard3 = [
   {
@@ -68,7 +67,7 @@ const dataCard3 = [
 export default function PageTradicional () {
   return (
         <>
-          <div className="bg-black w-full h-screen flex flex-col pt-16">
+          <div className="bg-black w-full flex flex-col pt-16">
             <div className="w-full h-auto bg-slate-100">
               <div className='flex items-center justify-center w-full h-36 overflow-hidden relative lg:h-80'>
                 <div className='flex flex-col items-center justify-center text-white absolute z-20'>
@@ -94,7 +93,6 @@ export default function PageTradicional () {
                   <button className='rounded-full bg-red-600 px-4 py-2 mt-6 whitespace-nowrap'>VER MÁS</button>
                 </div>
               </section>
-              <Footer/>
             </div>
           </div>
         </>

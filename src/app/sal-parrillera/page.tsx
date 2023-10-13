@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Card3 from '../components/card3'
-import Footer from '../components/footer'
 import card13 from '../imgs/card13.png'
 import parrillera1 from '../imgs/parri1.jpg'
 import parrillera2 from '../imgs/parri2.png'
@@ -25,11 +24,11 @@ const dataCard3 = [
 export default function Parrillera () {
   return (
         <>
-            <div className="bg-black w-full h-screen flex flex-col pt-16">
+            <div className="w-full flex flex-col pt-16">
             <div className="w-full h-auto bg-slate-100">
               <div className='flex items-center justify-center w-full h-36 overflow-hidden relative lg:h-80'>
                 <div className='flex flex-col items-center justify-center text-white absolute z-20'>
-                  <h1 className='text-3xl pb-3'>Sal Parrilleral</h1>
+                  <h1 className='text-3xl pb-3'>Sal Parrillera</h1>
                   <p className='text-sm'>El mejor savor para tus parrillas</p>
                 </div>
                 <div className='absolute bg-gradient-to-t from-black z-10 w-full h-full'></div>
@@ -40,8 +39,6 @@ export default function Parrillera () {
                   return <Card3 key={card3.titulo} pathUrl={card3.imagen} titulo={card3.titulo} descripcion={card3.descripcion} />
                 })}
               </main>
-
-              <Footer/>
             </div>
           </div>
         </>
