@@ -22,8 +22,8 @@ export default function Selecciones () {
             </div>
           </section>
 
-          <section className='bg-slate-200 grid grid-cols-1 md:grid-cols-2 md:py-10 items-center md:p-60 md:gap-16 justify-center'>
-            <div className='text-right order-last p-10'>
+          <section className='bg-slate-200 grid grid-cols-1 md:grid-cols-2 items-center xl:px-60 lg:px-32 lg:gap-10 md:gap-6 px-10 py-6'>
+            <div className='text-right order-last md:p-10  md:order-none md:pr-0 pr-4'>
               <h1 className='text-3xl font-semibold'>Sal de Mar Piramidal</h1>
               <p className='text-sm md:ml-6'>Descubre nuestros auténtiocs cristales de sal de mar en forma de pirámides, obtenidos
               a travez de un delicado proceso de extracción manual de la orilla del mar.</p>
