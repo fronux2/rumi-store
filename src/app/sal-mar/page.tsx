@@ -7,6 +7,7 @@ import mar6 from '../imgs/mar6.jpg'
 import card12 from '../imgs/card12.jpg'
 import Card3 from '../components/card3'
 import Image from 'next/image'
+import Presentacion from '../components/presentacion'
 const dataCard3 = [
   {
     titulo: 'Sal de Mar Entrefina',
@@ -39,14 +40,7 @@ export default function SalDeMar () {
         <>
             <div className="bg-black w-full flex flex-col pt-16">
             <div className="w-full h-auto bg-slate-100">
-              <div className='flex items-center justify-center w-full h-36 overflow-hidden relative lg:h-80'>
-                <div className='flex flex-col items-center justify-center text-white absolute z-20'>
-                  <h1 className='text-3xl pb-3'>Lobos Sal de Mar</h1>
-                  <p className='text-sm'>Sabor profundo para todas tus comidas</p>
-                </div>
-                <div className='absolute bg-gradient-to-t from-black z-10 w-full h-full'></div>
-                <Image src={card12} className='' alt='sal tradicional' width={1440} height={800}/>
-              </div>
+              <Presentacion pathUrl={card12} titulo={'Lobos Sal de Mar'} descripcion={'Sabor profundo para todas tus comidas'}/>
               <main className='grid grid-cols-2 lg:grid-cols-4 p-5 gap-2 lg:px-64'>
                 {dataCard3.map(card3 => {
                   return <Card3 key={card3.titulo} pathUrl={card3.imagen} titulo={card3.titulo} descripcion={card3.descripcion} />
