@@ -46,14 +46,14 @@ export default function SalDeMar () {
                   return <Card3 key={card3.titulo} pathUrl={card3.imagen} titulo={card3.titulo} descripcion={card3.descripcion} />
                 })}
               </main>
-              <section className='md:p-6 bg-slate-200 md:flex md:flex-row md:items-center md:h-96'>
-                <div className='md:w-[50%] md:pl-60'>
+              <section className='bg-slate-200 grid grid-cols-1 md:grid-cols-2 md:py-10 items-center'>
+                <div className='m-10 lg:pl-44'>
                   <Image src={mar6} alt='' width={1440} height={800}/>
                 </div>
 
-                <div className='p-6'>
+                <div className='p-6 pl-16 md:pl-2'>
                   <h1 className='text-3xl font-semibold'>El origen de nuestra sal de mar</h1>
-                  <p className='text-sm'>Lleva toda la intensidad del mar a tus comidas con SAl de Mar Lobos</p>
+                  <p className='text-sm'>Lleva toda la intensidad del mar a tus comidas con Sal de Mar Lobos</p>
                   <button className='rounded-full bg-red-600 px-4 py-2 mt-6 whitespace-nowrap'>VER MÁS</button>
                 </div>
               </section>
