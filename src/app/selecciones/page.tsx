@@ -15,17 +15,17 @@ export default function Selecciones () {
             </div>
             <div className='p-6 pl-16 md:pl-2'>
               <h1 className='text-3xl font-semibold'>Sal Rosada del Himalaya</h1>
-              <p className='text-sm w-3/5'>Dale un toque de originalidad y color a tus platos con nuestra Sal Rosada del Himalaya,
+              <p className='text-sm md:w-3/5'>Dale un toque de originalidad y color a tus platos con nuestra Sal Rosada del Himalaya,
                 disponible en diversos formatos para lucirte en tus preparaciones.
               </p>
               <button className='rounded-full text-white bg-red-600 px-4 py-2 mt-6 whitespace-nowrap'>VER MÁS</button>
             </div>
           </section>
 
-          <section className='bg-slate-200 grid grid-cols-1 md:grid-cols-2 md:py-10 items-center p-60 gap-16'>
-            <div className='text-right'>
+          <section className='bg-slate-200 grid grid-cols-1 md:grid-cols-2 md:py-10 items-center md:p-60 md:gap-16 justify-center'>
+            <div className='text-right order-last p-10'>
               <h1 className='text-3xl font-semibold'>Sal de Mar Piramidal</h1>
-              <p className='text-sm ml-6'>Descubre nuestros auténtiocs cristales de sal de mar en forma de pirámides, obtenidos
+              <p className='text-sm md:ml-6'>Descubre nuestros auténtiocs cristales de sal de mar en forma de pirámides, obtenidos
               a travez de un delicado proceso de extracción manual de la orilla del mar.</p>
               <button className='rounded-full text-white bg-red-600 px-4 py-2 mt-6 whitespace-nowrap'>VER MÁS</button>
             </div>
